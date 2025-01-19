@@ -2,12 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Vuetify 3</title>
+    <title>saaa</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <template>
+        <v-responsive class="border rounded" max-height="300">
+          <v-app>
+              <v-img
+                      :width="300"
+                      aspect-ratio="16/9"
+                      cover
+                      src="image/logo-f9dcf022.png"
+              ></v-img>
+      
+            <v-navigation-drawer>
+              <v-list>
+                <v-list-item title="Navigation drawer"></v-list-item>
+              </v-list>
+            </v-navigation-drawer>
+      
+            <v-main>
+              <v-container>
+                <h1>Main Content</h1>
+              </v-container>
+            </v-main>
+          </v-app>
+        </v-responsive>
+      </template>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
