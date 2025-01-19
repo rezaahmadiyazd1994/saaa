@@ -1,0 +1,25 @@
+.avatar
+{
+    position: absolute;
+    left: 10px;
+    border-radius: 90px;
+    border: 2px solid gray;
+    border-style: outset;"
+}
+.favicon
+{
+    position: absolute;
+    right: 10px;
+}
+.v-toolbar__content{
+    border-top: 2px solid gray;
+    background: #f0f8ff
+}
+.v-app-bar.v-toolbar:not(.v-toolbar--flat){
+    box-shadow:none !important;
+}
+.v-cart-text{
+    background:#dee0e4 !important;
+    border:2px solid gray !important;
+}
+

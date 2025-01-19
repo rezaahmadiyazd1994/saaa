@@ -2,23 +2,21 @@
   <v-responsive class="border rounded" max-height="300">
     <v-app>
       <v-app-bar>
-        <v-img
-          height="40"
-          src="/favicon.png"
-          position="absolute"
-        ></v-img>
+        <img src="/favicon.png" height="50" class="favicon">
+        <img src="/user_avatar.png" height="50" class="avatar">
       </v-app-bar>
 
       <v-navigation-drawer>
         <v-list>
-          <v-list-item title="Navigation drawer"></v-list-item>
+          <v-list-item>
+          </v-list-item>
         </v-list>
       </v-navigation-drawer>
 
       <v-main>
-        <v-container>
-          <h1>محتوی اصلی</h1>
-        </v-container>
+              <v-card-text class="bg-surface-light pt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, ratione debitis quis est labore voluptatibus! Eaque cupiditate minima, at placeat totam, magni doloremque veniam neque porro libero rerum unde voluptatem!
+              </v-card-text>
       </v-main>
     </v-app>
   </v-responsive>
